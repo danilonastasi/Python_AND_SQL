@@ -16,6 +16,8 @@
 
 #             python get-pip.py      # to install PIP in Python
 
+#             python -m pip install -U pip
+
 #             pip help         # again to check if PIP is installed
 
 #             pip install mysql-connector-python      # install library Python MySQL Connector
