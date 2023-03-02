@@ -325,7 +325,7 @@ from_db = []
 for result in results:
   result = result
   from_db.append(result)
-  print(from.db)
+  print(from_db)
 
 # Restituisci una lista di liste
 from_db = []
@@ -333,7 +333,7 @@ from_db = []
 for result in results:
   result = list(result)
   from_db.append(result)
-  print(from.db)
+  print(from_db)
 
 # Restituisci una lista di lista e poi crea un dataframe pandas
 from_db = []
