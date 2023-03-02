@@ -1,12 +1,14 @@
 # creating and manipulating database with Python
 
+#                https://dev.mysql.com/downloads/mysql/       # from this website it is possible to download MySQL
+
 # Check if Python is installed
 # if Python is installed:
 
 # move to windows command prompt
 # let's move to the folder where python is installed
 
-#             pip help         # to check if PIP is insstalled
+#             pip help         # to check if PIP is installed
 
 # if PIP does not respond, download it typing:
 
@@ -14,7 +16,7 @@
 
 #             python get-pip.py      # to install PIP in Python
 
-#             pip help         # again to check if PIP is insstalled
+#             pip help         # again to check if PIP is installed
 
 #             pip install mysql-connector-python      # install library Python MySQL Connector
 
@@ -24,6 +26,7 @@
 
 ##### Let's start with code in Python  #####
 
+# let's import libraries we use
 import mysql.connector
 from mysql.connector import Error
 import pandas as pd
