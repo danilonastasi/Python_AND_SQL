@@ -51,7 +51,7 @@ def create_server_connection(host_name, user_name, user_password):
     return connection   # return object connection
     
 # let's call the function getting the object:
-connection = create_server_connection("localhost", "root", "your MySQL password")   # password as string
+connection = create_server_connection("localhost", "youruser", "your MySQL password")   # password as string
 
 # let's type a function to create a database, to run a query inside MySQL:
 def create_database(connection, query):
